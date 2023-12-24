@@ -33,7 +33,6 @@ services:
     container_name: php_laravel_project_two
     networks:
       - laravel_project_two
-      - laravel_project_one
   redis:
     image: redis:alpine
     container_name: redis_laravel_project_two
